@@ -1,0 +1,166 @@
+- generic [ref=f6e2]:
+  - link "Aller au contenu principal" [ref=f6e8] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=f6e9]:
+    - link "SILabs" [ref=f6e10] [cursor=pointer]:
+      - /url: /
+    - navigation "Navigation principale" [ref=f6e13]:
+      - link "Accueil" [ref=f6e14] [cursor=pointer]:
+        - /url: /
+      - link "A propos" [ref=f6e15] [cursor=pointer]:
+        - /url: /about
+      - link "Projets" [ref=f6e16] [cursor=pointer]:
+        - /url: /projects
+      - link "Compétences" [ref=f6e17] [cursor=pointer]:
+        - /url: /skills
+      - link "Expérience" [ref=f6e18] [cursor=pointer]:
+        - /url: /experience
+      - link "Contact" [ref=f6e19] [cursor=pointer]:
+        - /url: /contact
+      - link "Soumettre une demande" [ref=f6e20] [cursor=pointer]:
+        - /url: /inquiry
+    - generic [ref=f6e24]:
+      - button "Passer en anglais" [ref=f6e25] [cursor=pointer]: EN
+      - button "Activer le thème sombre" [ref=f6e26] [cursor=pointer]
+  - main [ref=f6e30]:
+    - generic [ref=f6e31]:
+      - generic [ref=f6e32]:
+        - generic [ref=f6e33]: "02"
+        - paragraph [ref=f6e34]: PROJETS SÉLECTIONNÉS
+      - generic [ref=f6e35]:
+        - heading [level=1] [ref=f6e36]:
+          - text: Des produits numériques construits pour
+          - emphasis [ref=f6e37]: résoudre des besoins réels.
+        - generic [ref=f6e38]:
+          - paragraph [ref=f6e39]: Une sélection de plateformes web, de produits métier et de systèmes intelligents qui montre ma manière de relier l’expérience, les données et la technologie.
+          - generic "6 projets présentés" [ref=f6e40]:
+            - strong [ref=f6e41]: "06"
+            - generic [ref=f6e42]: projets présentés
+    - region "Filtrer les projets" [ref=f6e43]:
+      - button "Tous6" [pressed] [ref=f6e44] [cursor=pointer]
+      - button "Web6" [ref=f6e45] [cursor=pointer]
+      - button "Data4" [ref=f6e46] [cursor=pointer]
+      - button "AI2" [ref=f6e47] [cursor=pointer]
+      - button "ML1" [ref=f6e48] [cursor=pointer]
+    - generic [ref=f6e49]:
+      - link "Tableau de bord de la plateforme éducative EduLab AI En développement · 2026 EduLab AI Plateforme éducative intelligente pour accompagner les élèves ivoiriens du collège au lycée. Next.js 16 React 19 TypeScript" [ref=f6e50] [cursor=pointer]:
+        - /url: /projects/edulab-ai
+        - img "Tableau de bord de la plateforme éducative EduLab AI" [ref=f6e52]
+        - generic [ref=f6e53]:
+          - generic [ref=f6e54]:
+            - paragraph [ref=f6e55]: En développement · 2026
+            - heading "EduLab AI" [level=2] [ref=f6e56]
+            - paragraph [ref=f6e57]: Plateforme éducative intelligente pour accompagner les élèves ivoiriens du collège au lycée.
+          - generic [ref=f6e59]:
+            - generic [ref=f6e60]: Next.js 16
+            - generic [ref=f6e61]: React 19
+            - generic [ref=f6e62]: TypeScript
+      - link "Interface de gestion de la plateforme Village Connecté Plateforme full-stack · 2026 Village Connecté Gestion de bornes Wi-Fi solaires pour les villages ruraux de Côte d’Ivoire. React Node.js Express" [ref=f6e67] [cursor=pointer]:
+        - /url: /projects/village-connecte
+        - img "Interface de gestion de la plateforme Village Connecté" [ref=f6e69]
+        - generic [ref=f6e70]:
+          - generic [ref=f6e71]:
+            - paragraph [ref=f6e72]: Plateforme full-stack · 2026
+            - heading "Village Connecté" [level=2] [ref=f6e73]
+            - paragraph [ref=f6e74]: Gestion de bornes Wi-Fi solaires pour les villages ruraux de Côte d’Ivoire.
+          - generic [ref=f6e76]:
+            - generic [ref=f6e77]: React
+            - generic [ref=f6e78]: Node.js
+            - generic [ref=f6e79]: Express
+      - link "Dashboard de supervision météorologique de Meteo AI Plateforme IoT & IA · 2026 Meteo AI Plateforme intelligente de supervision météorologique IoT, de l’acquisition des mesures à l’analyse prédictive. React Vite Node.js" [ref=f6e84] [cursor=pointer]:
+        - /url: /projects/meteo-ai
+        - img "Dashboard de supervision météorologique de Meteo AI" [ref=f6e86]
+        - generic [ref=f6e87]:
+          - generic [ref=f6e88]:
+            - paragraph [ref=f6e89]: Plateforme IoT & IA · 2026
+            - heading "Meteo AI" [level=2] [ref=f6e90]
+            - paragraph [ref=f6e91]: Plateforme intelligente de supervision météorologique IoT, de l’acquisition des mesures à l’analyse prédictive.
+          - generic [ref=f6e93]:
+            - generic [ref=f6e94]: React
+            - generic [ref=f6e95]: Vite
+            - generic [ref=f6e96]: Node.js
+      - link "VoisiLab Plateforme métier · 2026 VoisiLab Écosystème numérique complet pour la gestion et la présence publique d’un FabLab. Next.js React TypeScript" [ref=f6e101] [cursor=pointer]:
+        - /url: /projects/voisilab
+        - img "VoisiLab" [ref=f6e103]
+        - generic [ref=f6e104]:
+          - generic [ref=f6e105]:
+            - paragraph [ref=f6e106]: Plateforme métier · 2026
+            - heading "VoisiLab" [level=2] [ref=f6e107]
+            - paragraph [ref=f6e108]: Écosystème numérique complet pour la gestion et la présence publique d’un FabLab.
+          - generic [ref=f6e110]:
+            - generic [ref=f6e111]: Next.js
+            - generic [ref=f6e112]: React
+            - generic [ref=f6e113]: TypeScript
+      - link "Select Immobilier Produit métier · 2026 Select Immobilier Application métier autour des interactions et services du secteur immobilier. React JavaScript Node.js" [ref=f6e118] [cursor=pointer]:
+        - /url: /projects/select-immobilier
+        - img "Select Immobilier" [ref=f6e120]
+        - generic [ref=f6e121]:
+          - generic [ref=f6e122]:
+            - paragraph [ref=f6e123]: Produit métier · 2026
+            - heading "Select Immobilier" [level=2] [ref=f6e124]
+            - paragraph [ref=f6e125]: Application métier autour des interactions et services du secteur immobilier.
+          - generic [ref=f6e127]:
+            - generic [ref=f6e128]: React
+            - generic [ref=f6e129]: JavaScript
+            - generic [ref=f6e130]: Node.js
+      - link "Site institutionnel du Complexe Industriel de Détergent FASSI Site institutionnel · 2026 FASSI CIDF Site institutionnel et catalogue numérique du Complexe Industriel de Détergent FASSI au Burkina Faso. React 18 Vite React Router" [ref=f6e135] [cursor=pointer]:
+        - /url: /projects/fassi
+        - img "Site institutionnel du Complexe Industriel de Détergent FASSI" [ref=f6e137]
+        - generic [ref=f6e138]:
+          - generic [ref=f6e139]:
+            - paragraph [ref=f6e140]: Site institutionnel · 2026
+            - heading "FASSI CIDF" [level=2] [ref=f6e141]
+            - paragraph [ref=f6e142]: Site institutionnel et catalogue numérique du Complexe Industriel de Détergent FASSI au Burkina Faso.
+          - generic [ref=f6e144]:
+            - generic [ref=f6e145]: React 18
+            - generic [ref=f6e146]: Vite
+            - generic [ref=f6e147]: React Router
+    - generic [ref=f6e152]:
+      - generic [ref=f6e153]:
+        - paragraph [ref=f6e154]: CE QUE CES PROJETS DÉMONTRENT / 03
+        - heading "Des solutions pensées pour être utiles, pas seulement présentées." [level=2] [ref=f6e155]
+        - paragraph [ref=f6e156]: Chaque projet relie une problématique concrète à une expérience claire, une architecture cohérente et des choix techniques assumés.
+      - list [ref=f6e157]:
+        - listitem [ref=f6e158]:
+          - generic [ref=f6e159]: "01"
+          - generic [ref=f6e160]:
+            - heading "Comprendre le besoin" [level=3] [ref=f6e161]
+            - paragraph [ref=f6e162]: Identifier les utilisateurs, les contraintes et le résultat réellement attendu.
+        - listitem [ref=f6e163]:
+          - generic [ref=f6e164]: "02"
+          - generic [ref=f6e165]:
+            - heading "Construire l’ensemble" [level=3] [ref=f6e166]
+            - paragraph [ref=f6e167]: Relier l’interface, les services et les données dans un système facile à faire évoluer.
+        - listitem [ref=f6e168]:
+          - generic [ref=f6e169]: "03"
+          - generic [ref=f6e170]:
+            - heading "Rendre le travail visible" [level=3] [ref=f6e171]
+            - paragraph [ref=f6e172]: Documenter les décisions et partager le code pour montrer ce qui existe derrière l’écran.
+      - generic [ref=f6e173]:
+        - paragraph [ref=f6e174]: Le code complète les études de cas et montre l’évolution technique des projets.
+        - link "Voir mes dépôts GitHub" [ref=f6e175] [cursor=pointer]:
+          - /url: https://github.com/BAKARY16?tab=repositories
+  - link "Explorer ensuite Les compétences" [ref=f6e179] [cursor=pointer]:
+    - /url: /skills
+    - generic [ref=f6e180]: Explorer ensuite
+    - strong [ref=f6e181]: Les compétences
+  - contentinfo [ref=f6e185]:
+    - generic [ref=f6e186]:
+      - link "SILabs" [ref=f6e187] [cursor=pointer]:
+        - /url: /
+      - paragraph [ref=f6e190]: Portfolio de développement web, Data et intelligence artificielle.
+    - generic [ref=f6e191]:
+      - link "Projets" [ref=f6e192] [cursor=pointer]:
+        - /url: /projects
+      - link "À propos" [ref=f6e193] [cursor=pointer]:
+        - /url: /about
+      - link "Contact" [ref=f6e194] [cursor=pointer]:
+        - /url: /contact
+      - link "Soumettre une demande" [ref=f6e195] [cursor=pointer]:
+        - /url: /inquiry
+    - generic [ref=f6e196]:
+      - link "GitHub" [ref=f6e197] [cursor=pointer]:
+        - /url: https://github.com/BAKARY16
+      - link "LinkedIn" [ref=f6e201] [cursor=pointer]:
+        - /url: https://www.linkedin.com/in/bakary-sinon-29799a275
+    - generic [ref=f6e205]: © 2026 SILabs · Développeur en Côte d’Ivoire

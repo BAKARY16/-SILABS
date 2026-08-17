@@ -1,0 +1,92 @@
+.work-method {
+  --method-accent: #946f0b;
+  width: min(1240px, calc(100% - 32px));
+  margin: 24px auto 70px;
+  padding: clamp(55px, 7vw, 90px) 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  color: var(--text);
+}
+.work-method-heading {
+  display: grid;
+  grid-template-columns: minmax(0, 1.3fr) minmax(280px, .7fr);
+  gap: clamp(40px, 8vw, 100px);
+  align-items: end;
+  margin-bottom: 55px;
+}
+.work-method-heading .overline { color: var(--method-accent); }
+.work-method-heading h2 {
+  max-width: 720px;
+  margin: 14px 0 0;
+  font-size: clamp(38px, 4.5vw, 60px);
+  line-height: 1.08;
+  letter-spacing: -.05em;
+}
+.work-method-heading > p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 16px;
+  line-height: 1.7;
+}
+.work-method-cards {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0;
+  border: 0;
+}
+.work-method-cards article {
+  min-height: 255px;
+  display: flex;
+  flex-direction: column;
+  padding: 30px 32px 30px 0;
+  border: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+  transition: background .3s ease, border-color .3s ease, color .3s ease;
+}
+.work-method-cards article + article { padding-left: 32px; border-left: 1px solid var(--line); }
+.work-method-cards article > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--method-accent);
+}
+.work-method-cards article > div span {
+  font: 800 11px/1 'Manrope';
+  letter-spacing: .08em;
+}
+.work-method-cards article svg { width: 30px; height: 30px; stroke-width: 1.5; }
+.work-method-cards h3 {
+  margin: auto 0 16px;
+  color: var(--text);
+  font-size: clamp(24px, 2.2vw, 32px);
+  line-height: 1.12;
+  letter-spacing: -.035em;
+}
+.work-method-cards p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 15px;
+  line-height: 1.65;
+}
+
+html:not([data-theme='light']) .work-method { --method-accent: var(--brand-gold); }
+
+@media (max-width: 850px) {
+  .work-method-heading { grid-template-columns: 1fr; gap: 22px; }
+  .work-method-cards { grid-template-columns: 1fr; }
+  .work-method-cards article { min-height: 0; padding: 30px 0; }
+  .work-method-cards article + article { padding-left: 0; border-left: 0; }
+}
+@media (max-width: 600px) {
+  .work-method { width: calc(100% - 40px); padding: 55px 0; border-radius: 0; }
+  .work-method-heading { margin-bottom: 38px; }
+  .work-method-heading h2 { font-size: 37px; }
+  .work-method-heading > p { font-size: 15px; }
+  .work-method-cards article { min-height: 0; padding: 28px 0; }
+  .work-method-cards h3 { font-size: 27px; }
+  .work-method-cards p { font-size: 14px; }
+}

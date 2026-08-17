@@ -1,0 +1,192 @@
+- generic [ref=e2]:
+  - link "Aller au contenu principal" [ref=e3] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=e4]:
+    - link "SILabs" [ref=e5] [cursor=pointer]:
+      - /url: /
+    - navigation "Navigation principale" [ref=e8]:
+      - link "Accueil" [ref=e9] [cursor=pointer]:
+        - /url: /
+      - link "À propos" [ref=e10] [cursor=pointer]:
+        - /url: /about
+      - link "Projets" [ref=e11] [cursor=pointer]:
+        - /url: /projects
+      - link "Compétences" [ref=e12] [cursor=pointer]:
+        - /url: /skills
+      - link "Expérience" [ref=e13] [cursor=pointer]:
+        - /url: /experience
+      - link "Contact" [ref=e14] [cursor=pointer]:
+        - /url: /contact
+      - link "Soumettre une demande" [ref=e15] [cursor=pointer]:
+        - /url: /inquiry
+    - generic [ref=e19]:
+      - button "Passer en anglais" [ref=e20] [cursor=pointer]: EN
+      - button "Activer le thème sombre" [ref=e21] [cursor=pointer]
+  - main [ref=e25]:
+    - generic [ref=e27]:
+      - link "Retour aux projets" [ref=e28] [cursor=pointer]:
+        - /url: /projects
+      - generic [ref=e31]:
+        - generic [ref=e32]:
+          - paragraph [ref=e33]: Étude de cas · 2026
+          - heading "Meteo AI" [level=1] [ref=e34]
+        - generic [ref=e35]:
+          - paragraph [ref=e36]: Plateforme intelligente de supervision météorologique IoT, de l’acquisition des mesures à l’analyse prédictive.
+          - generic [ref=e37]:
+            - link "GitHub" [ref=e38] [cursor=pointer]:
+              - /url: https://github.com/BAKARY16/Meteo_APP
+            - link "Voir la démo" [ref=e42] [cursor=pointer]:
+              - /url: https://meteo.voisilab.com/
+      - generic [ref=e46]:
+        - generic [ref=e47]:
+          - term [ref=e48]: Discipline
+          - definition [ref=e49]: AI · Data · Web
+        - generic [ref=e50]:
+          - term [ref=e51]: Technologie principale
+          - definition [ref=e52]: JavaScript
+        - generic [ref=e53]:
+          - term [ref=e54]: Statut
+          - definition [ref=e55]: Plateforme IoT & IA
+        - generic [ref=e57]:
+          - term [ref=e58]: Année
+          - definition [ref=e59]: "2026"
+      - figure "Interface principale · Meteo AI" [ref=e60]:
+        - generic "Démonstration vidéo de Meteo AI" [ref=e61]
+    - generic [ref=e63]:
+      - generic [ref=e64]:
+        - generic [ref=e65]: "01"
+        - text: Contexte
+      - heading "Meteo AI a été conçu pour centraliser les données de stations météo connectées et transformer des relevés bruts en informations directement exploitables. La plateforme réunit la collecte des capteurs, la surveillance en temps réel et l’aide à la décision dans une seule interface." [level=2] [ref=e67]
+      - complementary [ref=e68]:
+        - text: Le problème
+        - paragraph [ref=e69]: Le suivi de plusieurs stations IoT devient difficile lorsque les mesures, l’état des capteurs et les alertes sont dispersés. Il faut détecter rapidement les valeurs inhabituelles tout en conservant une vision claire de l’évolution météorologique.
+    - generic [ref=e71]:
+      - generic [ref=e72]:
+        - generic [ref=e73]:
+          - generic [ref=e74]: "02"
+          - text: Solution
+        - heading "De l’intention à un produit utilisable." [level=2] [ref=e75]
+      - paragraph [ref=e76]: Une architecture full-stack reçoit les mesures d’ESP32 ou de Raspberry Pi, les stocke dans MySQL puis les diffuse au dashboard par WebSocket. Un moteur d’analyse détecte les anomalies, établit des prévisions et produit des diagnostics accompagnés d’explications.
+    - generic [ref=e77]:
+      - generic [ref=e79]:
+        - generic [ref=e80]:
+          - generic [ref=e81]: "03"
+          - text: Architecture
+        - heading "Comment les éléments travaillent ensemble." [level=2] [ref=e82]
+      - generic [ref=e83]:
+        - article [ref=e84]:
+          - generic [ref=e85]: "01"
+          - generic [ref=e86]:
+            - heading "Expérience" [level=3] [ref=e87]
+            - paragraph [ref=e88]: Interfaces et interactions
+        - article [ref=e89]:
+          - generic [ref=e90]: "02"
+          - generic [ref=e91]:
+            - heading "Services" [level=3] [ref=e92]
+            - paragraph [ref=e93]: API et logique métier
+        - article [ref=e94]:
+          - generic [ref=e95]: "03"
+          - generic [ref=e96]:
+            - heading "Données" [level=3] [ref=e97]
+            - paragraph [ref=e98]: Stockage et intégration
+        - article [ref=e99]:
+          - generic [ref=e100]: "04"
+          - generic [ref=e101]:
+            - heading "Data" [level=3] [ref=e102]
+            - paragraph [ref=e103]: Persistance et analyse
+    - generic [ref=e104]:
+      - generic [ref=e105]:
+        - generic [ref=e106]:
+          - generic [ref=e107]:
+            - generic [ref=e108]: "04"
+            - text: Fonctionnalités
+          - heading "L’essentiel, sans détour." [level=2] [ref=e109]
+        - generic [ref=e110]: "07"
+      - generic [ref=e111]:
+        - article [ref=e112]:
+          - generic [ref=e113]: "01"
+          - paragraph [ref=e116]: Dashboard météorologique en temps réel
+        - article [ref=e117]:
+          - generic [ref=e118]: "02"
+          - paragraph [ref=e121]: Connexion de capteurs ESP32 et Raspberry Pi
+        - article [ref=e122]:
+          - generic [ref=e123]: "03"
+          - paragraph [ref=e126]: Détection multicouche des anomalies
+        - article [ref=e127]:
+          - generic [ref=e128]: "04"
+          - paragraph [ref=e131]: Prévisions adaptatives jusqu’à 24 heures
+        - article [ref=e132]:
+          - generic [ref=e133]: "05"
+          - paragraph [ref=e136]: Alertes intelligentes avec niveaux de sévérité
+        - article [ref=e137]:
+          - generic [ref=e138]: "06"
+          - paragraph [ref=e141]: Diagnostic de l’état des capteurs
+        - article [ref=e142]:
+          - generic [ref=e143]: "07"
+          - paragraph [ref=e146]: API d’ingestion unitaire et par lots
+    - generic [ref=e148]:
+      - generic [ref=e149]:
+        - generic [ref=e150]:
+          - generic [ref=e151]: "05"
+          - text: Technologies
+        - heading "Les choix techniques derrière l’expérience." [level=2] [ref=e152]
+      - generic [ref=e153]:
+        - generic [ref=e154]: React
+        - generic [ref=e155]: Vite
+        - generic [ref=e156]: Node.js
+        - generic [ref=e157]: Express
+        - generic [ref=e158]: WebSocket
+        - generic [ref=e159]: MySQL
+        - generic [ref=e160]: Recharts
+        - generic [ref=e161]: Docker
+    - generic [ref=e162]:
+      - generic [ref=e163]:
+        - generic [ref=e164]:
+          - generic [ref=e165]: "06"
+          - text: Enjeux
+        - heading "Les défis qui structurent le projet." [level=2] [ref=e166]
+      - generic [ref=e167]:
+        - article [ref=e168]:
+          - generic [ref=e169]: "01"
+          - paragraph [ref=e170]: Fiabiliser l’ingestion continue des mesures IoT
+        - article [ref=e171]:
+          - generic [ref=e172]: "02"
+          - paragraph [ref=e173]: Détecter les anomalies sans multiplier les fausses alertes
+        - article [ref=e174]:
+          - generic [ref=e175]: "03"
+          - paragraph [ref=e176]: Synchroniser le dashboard et les capteurs en temps réel
+        - article [ref=e177]:
+          - generic [ref=e178]: "04"
+          - paragraph [ref=e179]: Rendre les analyses et prévisions compréhensibles
+    - generic [ref=e181]:
+      - generic [ref=e182]:
+        - generic [ref=e183]: État actuel
+        - heading "Plateforme IoT & IA" [level=2] [ref=e184]
+        - paragraph [ref=e185]: Le code, les choix techniques et l’évolution du projet sont accessibles dans son dépôt public.
+        - link "Consulter le code" [ref=e186] [cursor=pointer]:
+          - /url: https://github.com/BAKARY16/Meteo_APP
+      - link "Projet suivant VoisiLab Continuer à parcourir le portfolio" [ref=e190] [cursor=pointer]:
+        - /url: /projects/voisilab
+        - generic [ref=e191]: Projet suivant
+        - heading "VoisiLab" [level=2] [ref=e192]
+        - paragraph [ref=e193]: Continuer à parcourir le portfolio
+  - contentinfo [ref=e197]:
+    - generic [ref=e198]:
+      - link "SILabs" [ref=e199] [cursor=pointer]:
+        - /url: /
+      - paragraph [ref=e202]: Portfolio de développement web, Data et intelligence artificielle.
+    - generic [ref=e203]:
+      - link "Projets" [ref=e204] [cursor=pointer]:
+        - /url: /projects
+      - link "À propos" [ref=e205] [cursor=pointer]:
+        - /url: /about
+      - link "Contact" [ref=e206] [cursor=pointer]:
+        - /url: /contact
+      - link "Soumettre une demande" [ref=e207] [cursor=pointer]:
+        - /url: /inquiry
+    - generic [ref=e208]:
+      - link "GitHub" [ref=e209] [cursor=pointer]:
+        - /url: https://github.com/BAKARY16
+      - link "LinkedIn" [ref=e213] [cursor=pointer]:
+        - /url: https://www.linkedin.com/in/bakary-sinon-29799a275
+    - generic [ref=e217]: © 2026 SILabs · Développeur en Côte d’Ivoire
